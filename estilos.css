@@ -1,6 +1,7 @@
 body {
-    background-color: rgb(59, 127, 187);
+    /*background-color: rgb(59, 127, 187);*/
     color: aliceblue;
+    background-image: url(imgs/bosque.jpg);
 }
 
 #headerImg {
@@ -19,6 +20,10 @@ body {
     height: 35px;
 }
 
+#specialImg {
+    height: 35px;
+}
+
 div{
     width: 100%;
 }
@@ -28,25 +33,23 @@ div{
     justify-content: center;
 }
 
-.button{
-    border: 3px solid blue;
-    margin-bottom: 10px;
-    
-}
-
 .button { 
     -moz-transition: all .4s ease-in;
     -o-transition: all .4s ease-in;
     -webkit-transition: all .4s ease-in;
     transition: all .4s ease-in;
     background: transparent; 
+    border: 3px;
     border-radius: 20%;
     margin-left: -2px;
     margin-right: -2px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgba(59, 127, 187, 0.4);
 }
 
 .button:hover { 
-    background-color: blue;
+    background-color: rgba(59, 127, 187, 0.8);
 }
 
 #lastHeaderP{
@@ -81,4 +84,10 @@ footer {
     background-color: rgb(100, 127, 200);
     color: white;
     text-align: center;
+}
+
+.modal-body{
+    align-items: center;
+    text-align: center;
+    color: black;
 }
