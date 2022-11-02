@@ -1,0 +1,100 @@
+body {
+    /*background-color: rgb(59, 127, 187);*/
+    color: aliceblue;
+    background-image: url(imgs/bosque.jpg);
+}
+
+#headerImg {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    height: 180px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+#specialImg {
+    height: 35px;
+}
+
+div{
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.button { 
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+    background: transparent; 
+    border: 3px;
+    border-radius: 20%;
+    margin-left: -2px;
+    margin-right: -2px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgba(59, 127, 187, 0.4);
+}
+
+.button:hover { 
+    background-color: rgba(59, 127, 187, 0.8);
+}
+
+#lastHeaderP{
+    margin-bottom: 25px;
+}
+
+.headerP{
+    margin-bottom: -5px;
+    text-align: center;
+    font-size: 1.35em;
+}
+
+.left{
+    margin-right: 4px;
+}
+
+.link{
+    padding-top: 20px;
+    padding-bottom: -10px;
+}
+
+footer a{
+    color:aqua;
+}
+
+footer {
+    margin-top: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-top: 13px;
+    width: 100%;
+    background-color: rgb(100, 127, 200);
+    color: white;
+    text-align: center;
+}
+
+.modal-body{
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+
+#separador{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
